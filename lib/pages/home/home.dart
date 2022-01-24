@@ -14,6 +14,8 @@ import 'package:web_portfolio/pages/home/components/website_ad.dart';
 import 'package:web_portfolio/utils/constants.dart';
 import 'package:web_portfolio/utils/globals.dart';
 
+import 'components/website_ad.dart';
+
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -102,9 +104,9 @@ class Home extends StatelessWidget {
               SizedBox(
                 height: 50.0,
               ),
-              Sponsors(),
+              // Sponsors(),
               SizedBox(
-                height: 50.0,
+                height: 20.0,
               ),
               TestimonialWidget(),
               Footer(),

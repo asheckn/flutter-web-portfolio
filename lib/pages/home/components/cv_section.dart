@@ -11,25 +11,25 @@ final List<DesignProcess> designProcesses = [
     title: "DESIGN",
     imagePath: "assets/design.png",
     subtitle:
-        "A full stack allround designer thay may or may not include a guide for specific creative",
+        "Modern User Interface and User Experience design  ",
+  ),
+  DesignProcess(
+    title: "PROTOTYPE",
+    imagePath: "assets/develop.png",
+    subtitle:
+        "Full app prototyping and concepting ",
   ),
   DesignProcess(
     title: "DEVELOP",
-    imagePath: "assets/develop.png",
-    subtitle:
-        "A full stack allround developer thay may or may not include a guide for specific creative",
-  ),
-  DesignProcess(
-    title: "WRITE",
     imagePath: "assets/write.png",
     subtitle:
-        "A full stack allround writer thay may or may not include a guide for specific creative",
+        "Multi platform development IOS , Android and Web",
   ),
   DesignProcess(
-    title: "PROMOTE",
+    title: "DEPLOY",
     imagePath: "assets/promote.png",
     subtitle:
-        "A full stack allround promoter thay may or may not include a guide for specific creative",
+        "Application deployment and release on all major app stores",
   ),
 ];
 
@@ -59,7 +59,7 @@ class CvSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "BETTER DESIGN,\nBETTER EXPERIENCES",
+                "MODERN DESIGN,\nUSER FOCUSED EXPERIENCES",
                 style: GoogleFonts.oswald(
                   color: Colors.white,
                   fontWeight: FontWeight.w900,
@@ -68,11 +68,13 @@ class CvSection extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                onTap: () {},
+                onTap: () {
+
+                },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
                   child: Text(
-                    "DOWNLOAD CV",
+                    "DOWNLOAD RESUME",
                     style: GoogleFonts.oswald(
                       color: kPrimaryColor,
                       fontWeight: FontWeight.w900,

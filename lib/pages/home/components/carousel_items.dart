@@ -14,8 +14,8 @@ List<CarouselItemModel> carouselItems = List.generate(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            "PRODUCT DESIGNER",
-            style: GoogleFonts.oswald(
+            "SOFTWARE DEVELOPER",
+            style: GoogleFonts.roboto(
               color: kPrimaryColor,
               fontWeight: FontWeight.w900,
               fontSize: 16.0,
@@ -25,8 +25,8 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 18.0,
           ),
           Text(
-            "MICHELE\nHARRINGTON",
-            style: GoogleFonts.oswald(
+            "ASHECK NYASHA\nHOVE",
+            style: GoogleFonts.roboto(
               color: Colors.white,
               fontSize: 40.0,
               fontWeight: FontWeight.w900,
@@ -37,7 +37,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "Full-stack developer, based in Barcelona",
+            "Mobile App Developer & 3D Artist based in Zimbabwe",
             style: TextStyle(
               color: kCaptionColor,
               fontSize: 15.0,
@@ -51,7 +51,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: Wrap(
               children: [
                 Text(
-                  "Need a full custom website?",
+                  "Need a Custom Mobile App?",
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,
@@ -63,7 +63,7 @@ List<CarouselItemModel> carouselItems = List.generate(
                   child: MouseRegion(
                     cursor: SystemMouseCursors.click,
                     child: Text(
-                      " Got a project? Let's talk.",
+                      "Got the next big idea? lets talk",
                       style: TextStyle(
                         height: 1.5,
                         color: Colors.white,

@@ -9,27 +9,27 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 final List<FooterItem> footerItems = [
   FooterItem(
     iconPath: "assets/mappin.png",
-    title: "ADDRESS",
-    text1: "999 Carter Street",
-    text2: "Sailor Springs, IL 64234",
+    title: "INSTAGRAM",
+    text1: "@revenanttechnologies",
+    text2: "",
   ),
   FooterItem(
     iconPath: "assets/phone.png",
-    title: "PHONE",
-    text1: "+1 618-689-9604",
-    text2: "+1 781-689-9632",
+    title: "MOBILE",
+    text1: "+263 772 342 164",
+    text2: "",
   ),
   FooterItem(
     iconPath: "assets/email.png",
     title: "EMAIL",
-    text1: "hello@example.com",
-    text2: "info@flutterpanda.com",
+    text1: "revenanttechzw@gmail.com",
+    text2: "",
   ),
   FooterItem(
     iconPath: "assets/whatsapp.png",
     title: "WHATSAPP",
-    text1: "+234 901-134-0095",
-    text2: "+234 901-134-0095",
+    text1: "+263 772 342 164",
+    text2: "",
   )
 ];
 
@@ -138,7 +138,7 @@ Widget _buildUi(double width, BuildContext context) {
                   Padding(
                     padding: EdgeInsets.only(bottom: 8.0),
                     child: Text(
-                      "Copyright (c) 2021 Michele Harrington. All rights Reserved",
+                      "Copyright (c) 2022 Nyasha Asheck Hove. All rights Reserved",
                       style: TextStyle(
                         color: kCaptionColor,
                       ),

@@ -34,10 +34,18 @@ class IosAppAd extends StatelessWidget {
                   // Disable expanded on smaller screen to avoid Render errors by setting flex to 0
                   Expanded(
                     flex: constraints.maxWidth > 720.0 ? 1 : 0,
-                    child: Image.asset(
-                      "assets/ios.png",
-                      // Set width for image on smaller screen
-                      width: constraints.maxWidth > 720.0 ? null : 350.0,
+                    child: Container(
+                      height: 500,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12)
+                      ),
+                      child: Image.asset(
+                        "assets/android.png",
+                        // Set width for image on smaller screen
+                        width: constraints.maxWidth > 720.0 ? null : 350.0,
+                        filterQuality: FilterQuality.medium,
+                        fit: BoxFit.fitHeight,
+                      ),
                     ),
                   ),
                   Expanded(
@@ -47,7 +55,7 @@ class IosAppAd extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "IOS APP",
+                          "ANDROID APP",
                           style: GoogleFonts.oswald(
                             color: kPrimaryColor,
                             fontWeight: FontWeight.w900,
@@ -58,7 +66,7 @@ class IosAppAd extends StatelessWidget {
                           height: 15.0,
                         ),
                         Text(
-                          "UNIVERSAL\nSMART HOME APP",
+                          "LEDGER\nECO-CASH HELPER APP",
                           style: GoogleFonts.oswald(
                             color: Colors.white,
                             fontWeight: FontWeight.w900,
@@ -70,7 +78,7 @@ class IosAppAd extends StatelessWidget {
                           height: 10.0,
                         ),
                         Text(
-                          "This is a random text about the project, I should have used the regular lorem ipsum text, but I am too lazy to search for that. This should be long enough",
+                          "A simple helper applications for quick ecocash transactions without data. currently available on the Google Play Store",
                           style: TextStyle(
                             color: kCaptionColor,
                             height: 1.5,
@@ -97,7 +105,7 @@ class IosAppAd extends StatelessWidget {
                                   onPressed: () {},
                                   child: Center(
                                     child: Text(
-                                      "EXPLORE MORE",
+                                      "Get APP",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 13.0,
@@ -123,7 +131,9 @@ class IosAppAd extends StatelessWidget {
                                 height: 48.0,
                                 padding: EdgeInsets.symmetric(horizontal: 28.0),
                                 child: TextButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+
+                                  },
                                   child: Center(
                                     child: Text(
                                       "NEXT APP",

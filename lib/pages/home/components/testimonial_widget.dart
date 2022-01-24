@@ -8,16 +8,16 @@ import 'package:web_portfolio/utils/screen_helper.dart';
 final List<Testimonial> testimonials = [
   Testimonial(
     text:
-        "This is a testimonial text from Janny Stone. Michele is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.",
-    occupation: "Product Designer",
-    personName: "JANNY STONE",
+        "My custom system was  designed tested and deployed in record time with support and maintenance ",
+    occupation: "Lawyer",
+    personName: "Rutendo Mugadza",
     profilePhoto: "assets/female.png",
   ),
   Testimonial(
     text:
-        "This is a testimonial text from Ken Williams. Michele is a professional at what he does and never ceases to amaze me with his beautiful works. I will like to work with him in the future again.",
-    occupation: "Art Director",
-    personName: "KEN WILLIAMS",
+        "Had pre-visualisation work done. time taken was short , the final render was ideal and communication was prompt ",
+    occupation: "Operations Manager",
+    personName: "Abel Mashayamombe",
     profilePhoto: "assets/male.png",
   )
 ];
@@ -65,20 +65,16 @@ Widget _buildUi(double width) {
                     children: [
                       TextSpan(
                         text:
-                            "This is the portfolio section. There is alot of work here",
+                            "Find out what my clients think about my work",
                         style: TextStyle(color: Colors.white, height: 1.8),
                       ),
                       TextSpan(
-                          text: " click here to contact us",
+                          text: " get in touch",
                           style: TextStyle(
                             color: kPrimaryColor,
                             fontWeight: FontWeight.w700,
                             height: 1.8,
                           )),
-                      TextSpan(
-                        text: ". Please subscribe to me youtube channel :-)",
-                        style: TextStyle(color: Colors.white, height: 1.8),
-                      ),
                     ],
                   ),
                 ),
